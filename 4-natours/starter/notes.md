@@ -111,6 +111,14 @@ These HTTP methods form the foundation of RESTful APIs, enabling standardized op
 
 ### When we request delete http method why we don't get any console.log on terminal as well on postmann website?
 
+### Explain deep about middlewares, and can routes be middlerwares too?
+
+### Explain about middleware sequence of execution and how routes are affect middleware?
+
+### Benefit of morgan using middleware?
+
+###
+
 ### Notes
 
 - API : Application Programming Interface: a piece of software that can be used by another piece of software, in order to allow application to talk to each other.
@@ -125,3 +133,4 @@ These HTTP methods form the foundation of RESTful APIs, enabling standardized op
 
 - Optional paramets : `/api/v1/tours/:id/:x/:y?` here is y is optional parameters
 - Also , to get the parameters => request.params.
+- middleware depends upon the sequence of code execution.
