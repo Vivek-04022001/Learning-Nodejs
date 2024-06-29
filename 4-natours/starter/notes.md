@@ -117,7 +117,11 @@ These HTTP methods form the foundation of RESTful APIs, enabling standardized op
 
 ### Benefit of morgan using middleware?
 
-###
+### What are controllers ?
+
+### \_\_\_dirname ? what is it significanse?
+
+### How to serve static files ?
 
 ### Notes
 
