@@ -6,19 +6,17 @@ const {
   createTour,
   getTour,
   updateTour,
-  deleteTour,
-  checkId,
-  checkBody
+  deleteTour
 } = tourController;
 
 const router = express.Router();
 
-router.param('id', checkId);
+// router.param('id', tourController.checkID);
 
 router
   .route('/')
   .get(getAllTours)
-  .post(checkBody, createTour);
+  .post(createTour);
 
 router
   .route('/:id')
